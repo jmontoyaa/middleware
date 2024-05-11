@@ -1,6 +1,6 @@
 # Auth.js middleware for Hono
 
-This is a [Auth.js](https://authjs.dev) third-party middleware for [Hono](https://github.com/honojs/hono).
+This is a [Auth.js](https://authjs.dev) third-party middleware for [Hono](https://.com/honojs/hono).
 
 This middleware can be used to inject the Auth.js session into the request context.
 
@@ -22,8 +22,9 @@ AUTH_URL=#optional
 ## How to Use
 
 ```ts
-import { Hono,Context } from 'hono'
-import { authHandler, initAuthConfig, verifyAuth, AuthConfig } from "@hono/auth-js"
+import { Hono, Context } from 'hono'
+import { authHandler, initAuthConfig, verifyAuth, type AuthConfig } from "@hono/auth-js"
+import Google from "@auth/core/providers/google"
 
 const app = new Hono()
 
@@ -140,4 +141,4 @@ Working example repo https://github.com/divyam234/next-auth-hono-react
 
 ## Author
 
-Divyam <https://github.com/divyam234>
+Divyam <https://.com/divyam234>
